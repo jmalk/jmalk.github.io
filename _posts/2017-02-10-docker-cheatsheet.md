@@ -4,8 +4,6 @@ title: "Docker Cheatsheet"
 date: 2017-02-10
 ---
 
-<h1>{{ post.title }}</h1>
-
 `docker build -t <desired-image-name> <context>`
 
 From the Dockerfile in `<context>`, make me an image called `<desired-image-name>` and save it locally.
