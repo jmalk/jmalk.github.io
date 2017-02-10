@@ -1,0 +1,17 @@
+---
+layout: default
+title: jmalk's blog
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul class="posts">
+
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+
+</ul>
+
+<p>This blog is a scrapbook of cheat-sheets, things that took some figuring out, things I'd like to teach people, and collections of lists of resources for particular topics.</p>
+
