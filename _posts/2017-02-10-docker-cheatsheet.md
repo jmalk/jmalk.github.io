@@ -4,7 +4,7 @@ title: "Docker Cheatsheet"
 date: 2017-02-10
 ---
 
-# {{ post.title }}
+<h1>{{ post.title }}</h1>
 
 `docker build -t <desired-image-name> <context>`
 
