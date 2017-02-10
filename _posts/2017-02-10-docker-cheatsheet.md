@@ -8,7 +8,7 @@ date: 2017-02-10
 
 `docker build -t <desired-image-name> <context>`
 
-From the Dockerfile in <context>, make me an image called <desired-image-name> and save it locally.
+From the Dockerfile in `<context>`, make me an image called `<desired-image-name>` and save it locally.
 
 ---
 
@@ -20,7 +20,7 @@ List images you have locally.
 
 `docker rmi <image-name>`
 
-Remove <image-name>.
+Remove `<image-name>`.
 
 ---
 
