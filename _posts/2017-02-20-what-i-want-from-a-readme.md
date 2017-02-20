@@ -9,6 +9,7 @@ When I come to a new codebase or repository on GitHub, I have a bunch of questio
 * What is this code for? What does it do?
 * How do I run the code on my machine? Bonus points for instructions that anyone can copy and paste, line-by-line, without having to think.
 * Having set up the code on my machine, how do I verify that it's working?
+* How do I run the tests? (You do *have* automated tests, don't you?)
 * What are the query parameters, command line arguments, etc. etc. that I can pass to this app? If they're documented somewhere, where? If there's a file that enumerates them, can I have a link please?
 * If I want to contribute to this app, how do I go about it?
 
