@@ -6,7 +6,7 @@ date: 2017-03-20
 
 Let's start with a seemingly tangential question:
 
-## What is "good quality" code?
+## What is "good quality" code?
 
 When we say code is good, what qualities does it have that bad code doesn't? I thought of a few, and my tutor helped fill out the list of examples.
 
@@ -19,7 +19,7 @@ When we say code is good, what qualities does it have that bad code doesn't? I t
 * Low number of bugs, low rate of additional bugs.
 * Release tempo. FOLLOW-UP: Why is this a sign of good code?
 
-## Single Responsibility Principle makes code better
+## Single Responsibility Principle makes code better
 
 My tutor is so confident in the power of Single Responsibility Principle (SRP) that they asserted "SRP can make all of these qualities easier to achieve, and so make your code better".
 
