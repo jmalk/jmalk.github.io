@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Brief Introduction to Vim"
-date: 2017-02-10
+date: 2017-04-20
 ---
 
 ## What I find it useful for
