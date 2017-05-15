@@ -1,0 +1,25 @@
+.jumbotron {
+  text-align: center;
+}
+
+.picture img {
+  width: 100%;
+}
+
+.item {
+  padding-bottom: 24px;
+}
+
+.item .itemPrice,
+.item .itemDescription {
+  margin-right: 24px;
+}
+
+.item .itemName,
+.item .itemPrice {
+  display: inline-block;
+}
+
+.item .itemPrice {
+  float: right;
+}
