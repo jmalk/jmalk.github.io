@@ -1,5 +1,8 @@
 .jumbotron {
   text-align: center;
+  color: #eee;
+  background-color: CornflowerBlue;
+  background-image: linear-gradient(3deg, CornflowerBlue, Coral);
 }
 
 .jumbotron p {
