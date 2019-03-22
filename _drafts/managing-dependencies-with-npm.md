@@ -13,6 +13,10 @@ SemVer numbers are typically in three parts, e.g. version 4.2.7. The parts are c
 
 I like to remember this as breaking, feature, fix, because then it makes the acronym BFF. <3
 
+## What's npm?
+
+If you want to use some JavaScript that someone else wrote, the most common way to add it to your project is by using Node Package Manger: npm. "Npm" comes in a few forms - it's a set of command line tools, a registry of published packages and an organisation that maintains these things. It comes bundled with Node, which you can install from [the official Node website](https://nodejs.org/en/).
+
 ## Repeatable builds!
 Why do we care?
 * Can rebuild an old version of the system if there’s a bug in a running instance of it we need to diagnose.
