@@ -5,7 +5,13 @@ date: 2019-03-22
 ---
 
 ## SemVer
-A brief intro: breaking, adding, fixing.
+If you already understand Semantic Versioning (SemVer), skip this section.
+
+Package authors update their creations. We typically want to include the latest and greatest version they have made available. But we don't want an update to break our project. SemVer was invented to label each new release of a package in a way that tells us whether it will be compatible with projects that used a previous version.
+
+SemVer numbers are typically in three parts - version 1.2.3, version 4.2.8, version 138.2.60, etc. Each part is called the major, minor, and patch version. Major means a breaking change has been introduced. Minor means a feature has been added, but it shouldn't affect any existing functionality. Patch means something has been fixed.
+
+I like to remember this as breaking, feature, fix, because then it makes the acronym BFF. <3
 
 ## Repeatable builds!
 Why do we care?
