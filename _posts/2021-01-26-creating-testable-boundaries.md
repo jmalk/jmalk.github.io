@@ -29,6 +29,12 @@ test("Two plus two is four", () => {
 });
 ```
 
-If I were writing library of functions to do arithmetic I could surround my code with a battery of such tests and maintain them for years without having to tax my lazy brain. Bliss
+If I were writing library of functions to do arithmetic I could surround my code with a battery of such tests and maintain them for years without having to tax my lazy brain. Bliss.
+
+### Be an enabler
+
+We've established what we think makes a maintainable set of tests. Now we need to figure out how to write code that enables these features.
+
+One way is to continue being lazy. Don't think about what your code should look like. Write the tests you want to write, and then make code that passes them. This method is called Test-driven development (TDD). One of its advantages is that it forces you to design a testable boundary for your code. If you're doing TDD, and you find yourself getting frustrated before you've even made your first assertion, you may wish to re-think the unit of code you're designing.
 
 ## Boundaries
