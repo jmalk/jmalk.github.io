@@ -21,4 +21,14 @@ Let's start from this side - instead of asking what makes source code easy to te
 
 ### My favourite tests
 
+If we get rid of all the features I find unpleasant, above, what are we left with? No mocks, no fake data, short, simple, repeatable, independent tests. Unit tests of stateless utility functions are a prime example of this.
+
+```js
+test("Two plus two is four", () => {
+  expect(plus(2, 2)).toBe(4);
+});
+```
+
+If I were writing library of functions to do arithmetic I could surround my code with a battery of such tests and maintain them for years without having to tax my lazy brain. Bliss
+
 ## Boundaries
